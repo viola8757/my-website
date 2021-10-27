@@ -64,14 +64,6 @@ const Header = ({ meta, nav }: HeaderProps) => {
         }}
       >
         <SocialLinks />
-        <button
-          sx={{ variant: `buttons.toggle`, fontWeight: `semibold` }}
-          onClick={toggleColorMode}
-          type="button"
-          aria-label="Toggle dark mode"
-        >
-          {isDark ? `Light` : `Dark`}
-        </button>
       </div>
     </Flex>
   )
